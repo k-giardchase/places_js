@@ -1,0 +1,17 @@
+#show-place {
+  display: none;
+}
+
+.place {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.place:hover {
+  text-decoration: underline;
+}
+
+/*body {
+background-image: url("https://p.gr-assets.com/540x540/fit/hostedimages/1380380838/737862.jpg");
+background-image: no-repeat;
+}*/
