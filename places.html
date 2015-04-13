@@ -1,0 +1,59 @@
+<html>
+<head>
+    <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/styles.css'>
+    <script src='js/jquery-1.11.2.js'></script>
+    <script src='js/scripts.js'></script>
+    <title>Places</title>
+</head>
+<body>
+  <div class='container'>
+    <h1>Oh The Places You've Gone</h1>
+
+    <div class='row'>
+      <div class='col-md-6'>
+      <h2>Add a place:</h2>
+      <form id="new-place">
+        <div class='form-group'>
+          <label for="new-name">Name</label>
+          <input type="text" id='new-name' class='form-control'>
+        </div>
+
+        <div class='form-group'>
+          <label for="new-location">Location</label>
+          <input type="text" id='new-location' class='form-control'>
+        </div>
+
+        <div class='form-group'>
+          <label for="new-year">Year</label>
+          <input type="text" id='new-year' class='form-control'>
+        </div>
+
+        <div class='form-group'>
+          <label for="new-notes">Notes</label>
+          <textarea type="text" id='new-notes' class='form-control'></textarea>
+        </div>
+
+        <button type="submit" class='btn btn-info'>Add</button>
+      </form>
+
+      <h2>Places:</h2>
+      <ul id='places'>
+
+      </ul>
+      </div>
+      <div class='col-md-6'>
+        <div id='show-place'>
+        <h2></h2>
+
+        <p>Name: <span class='name'></span></p>
+        <p>Location: <span class='location'></span></p>
+        <p>Year: <span class='year'></span></p>
+        <p>Notes: <span class='notes'></span></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
