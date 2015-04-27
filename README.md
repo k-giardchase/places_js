@@ -5,14 +5,17 @@ Kyle Giard-Chase & Tanner Heffner
 April 13, 2015
 
 ##Description
-An app that lets a user input a place they've been, and view a particular place's info.
+An app that lets a user input a place they've been, and view the information for a particular place.
 
 ##Technologies Used
 Javascript <br>
 <a href='https://jquery.com/download/'>jQuery-1.11.2</a> <br>
 
 ##Use and Editing
-To use the app, clone the repository. In the top level of the project folder, click on places.html and open it in your web browser.
+To use the app, <br>
+1. Clone the repository. `git clone https://github.com/k-giardchase/places_js.git`<br>
+2. Change directories into the folder `places_js`<br>
+3. In the top level of the project folder, open places.html in your web browser.
 
 ##Copyright (c) 2015 Kyle Giard-Chase & Tanner Heffner
 
